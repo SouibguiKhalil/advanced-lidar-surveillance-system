@@ -9,3 +9,10 @@ prepareddataset/
 __pycache__/
 .venv/
 venv/
+# Ignore the virtual environment (This is causing the 10,000 files!)
+datasetlidar/
+lidarseg/
+samples/
+sweeps/
+v1.0-trainval/
+maps/

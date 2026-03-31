@@ -1,0 +1,11 @@
+# Ignore the dataset folder and zip files
+prepareddataset/
+*.zip
+
+# Ignore the saved model weights (unless they are very small, it's safer to ignore them)
+*.pth
+
+# Ignore Python cache and virtual environments
+__pycache__/
+.venv/
+venv/
